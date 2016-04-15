@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<nm:sendBookingBLRequestMsg xmlns:nm="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1" xmlns:prx="urn:sap.com:proxy:ITM:/1SAI/TASE247FC9A53C40D79D822:731">
+  <AppMessageHeader>
+    <UUID>Q2C_PublishBLDetail20160225-194158409</UUID>
+    <MsgType>REQUEST</MsgType>
+    <ServiceID>Q2C_PublishBLDetail</ServiceID>
+    <ServiceVersion>V1.0</ServiceVersion>
+    <SourceSysID>Q2C</SourceSysID>
+    <TimestampCreated>20160225-19:41:58</TimestampCreated>
+  </AppMessageHeader>
+  <BookingandBL>
+    <ne:Header xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:Action xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">U</n0:Action>
+      <n0:ActionSource xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">BK</n0:ActionSource>
+      <n0:ActionReason xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:ActionReason>
+      <n0:BLNo xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">807333</n0:BLNo>
+      <n0:BookingType xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">ZCLG</n0:BookingType>
+      <n0:BookingDate xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">20160225</n0:BookingDate>
+      <n0:BookingTime xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:BookingTime>
+      <n0:PONo xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:PONo>
+      <n0:ShipperReferenceNo xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">607365700d-TEST03-015</n0:ShipperReferenceNo>
+      <n0:SDDFlag xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">false</n0:SDDFlag>
+      <n0:SDOFlag xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">false</n0:SDOFlag>
+      <n0:CargoReceiptMode xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">CY</n0:CargoReceiptMode>
+      <n0:CargoDeliveryMode xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">CY</n0:CargoDeliveryMode>
+      <n0:FreeInOut xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:FreeInOut>
+      <n0:PaymentTermOCF xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">C</n0:PaymentTermOCF>
+      <n0:BookingOffice xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">BKO_CNNGB</n0:BookingOffice>
+      <n0:ContractType xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">1</n0:ContractType>
+      <n0:QuotationNo xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">SD0162245/</n0:QuotationNo>
+      <n0:ChannelOfBooking xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">4</n0:ChannelOfBooking>
+      <n0:Origin xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">CNNTG-NNTW</n0:Origin>
+      <n0:Destination xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">USOAK-OMOW</n0:Destination>
+      <n0:LoadPort xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">CNSHA-SHAW</n0:LoadPort>
+      <n0:DischargePort xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">USOAK-OMOW</n0:DischargePort>
+      <n0:LoadVessel xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">HTKHMM</n0:LoadVessel>
+      <n0:LoadVoyage xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">087</n0:LoadVoyage>
+      <n0:DepartAfterDate xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">20160225</n0:DepartAfterDate>
+      <n0:DepartAfterTime xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">191840</n0:DepartAfterTime>
+      <n0:ArriveByDate xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">00000000</n0:ArriveByDate>
+      <n0:ArriveByTime xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">000000</n0:ArriveByTime>
+      <n0:BLReleaseToParty xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">9100586000</n0:BLReleaseToParty>
+      <n0:BLIssueDate xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">00000000</n0:BLIssueDate>
+      <n0:ValidationDate xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">00000000</n0:ValidationDate>
+      <n0:CompanyCode xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">American President Lines, Ltd</n0:CompanyCode>
+    </ne:Header>
+    <n0:BusinessPartner xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BPRole>203</n0:BPRole>
+      <n0:BusinessPartnerNo>9000027926</n0:BusinessPartnerNo>
+      <n0:BPOrgName1>KUEHNE &amp; NAGEL LTD NINGBO BRANCH</n0:BPOrgName1>
+      <n0:Address>
+        <n0:Street>"6F(SOUTH) HOWARD JOHNSON OFFICE BLDG,"</n0:Street>
+        <n0:PostalCode>315010</n0:PostalCode>
+        <n0:City>NINGBO</n0:City>
+        <n0:Country>CN</n0:Country>
+        <n0:Region>33</n0:Region>
+        <n0:CAPCode>671612</n0:CAPCode>
+      </n0:Address>
+      <n0:Contact>
+        <n0:Telephone>(574)27909701</n0:Telephone>
+        <n0:FaxExtension>701</n0:FaxExtension>
+        <n0:Email>Q_2378409@NOL.COM.SG</n0:Email>
+      </n0:Contact>
+    </n0:BusinessPartner>
+    <n0:BusinessPartner xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BPRole>6</n0:BPRole>
+      <n0:BusinessPartnerNo>9000121074</n0:BusinessPartnerNo>
+      <n0:BPOrgName1>KUEHNE &amp; NAGEL LTD</n0:BPOrgName1>
+      <n0:Address>
+        <n0:Street>3RD FLOOR OLYMPIC MOTOR BUILDING NO 173 BLVD JAWAHARLAS</n0:Street>
+        <n0:City>PHNOM PENH</n0:City>
+        <n0:Country>KH</n0:Country>
+        <n0:Region>12</n0:Region>
+        <n0:CAPCode>449765</n0:CAPCode>
+      </n0:Address>
+      <n0:Contact>
+        <n0:Email>Q_A1764552@NOL.COM.SG</n0:Email>
+      </n0:Contact>
+    </n0:BusinessPartner>
+    <n0:BusinessPartner xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BPRole>5</n0:BPRole>
+      <n0:BusinessPartnerNo>9000381560</n0:BusinessPartnerNo>
+      <n0:BPOrgName1>"Kuehne &amp; Nagel, Inc."</n0:BPOrgName1>
+      <n0:Address>
+        <n0:Street>5985 PACIFIC CENTRE BOULEVARD</n0:Street>
+        <n0:PostalCode>92121</n0:PostalCode>
+        <n0:City>SAN DIEGO</n0:City>
+        <n0:Country>US</n0:Country>
+        <n0:Region>CA</n0:Region>
+        <n0:CAPCode>498402</n0:CAPCode>
+      </n0:Address>
+      <n0:Contact>
+        <n0:Telephone>(858)6229401</n0:Telephone>
+        <n0:Fax>(858)622-9408</n0:Fax>
+      </n0:Contact>
+    </n0:BusinessPartner>
+    <n0:BusinessPartner xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BPRole>1</n0:BPRole>
+      <n0:BusinessPartnerNo>9100586000</n0:BusinessPartnerNo>
+      <n0:BPOrgName1>APL CHINA CO. LTD. (NANTONG)</n0:BPOrgName1>
+      <n0:Address>
+        <n0:Street>WEST QINGNIAN ROAD</n0:Street>
+        <n0:City>NANTONG</n0:City>
+        <n0:Country>CN</n0:Country>
+        <n0:Region>32</n0:Region>
+        <n0:CAPCode>1279545</n0:CAPCode>
+      </n0:Address>
+      <n0:Contact>
+        <n0:Telephone>(513)83556267</n0:Telephone>
+        <n0:Fax>(513)83556275</n0:Fax>
+        <n0:Email>Q_A2175253@NOL.COM.SG</n0:Email>
+      </n0:Contact>
+    </n0:BusinessPartner>
+    <n0:BusinessPartner xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BPRole>ZNOLEDIP</n0:BPRole>
+      <n0:BusinessPartnerNo>9100586000</n0:BusinessPartnerNo>
+      <n0:BPOrgName1>APL CHINA CO. LTD. (NANTONG)</n0:BPOrgName1>
+      <n0:Address>
+        <n0:Street>WEST QINGNIAN ROAD</n0:Street>
+        <n0:City>NANTONG</n0:City>
+        <n0:Country>CN</n0:Country>
+        <n0:Region>32</n0:Region>
+        <n0:CAPCode>1279545</n0:CAPCode>
+      </n0:Address>
+      <n0:Contact>
+        <n0:Telephone>(513)83556267</n0:Telephone>
+        <n0:Fax>(513)83556275</n0:Fax>
+        <n0:Email>Q_A2175253@NOL.COM.SG</n0:Email>
+      </n0:Contact>
+    </n0:BusinessPartner>
+    <n0:BusinessPartner xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BPRole>ZNOLRP</n0:BPRole>
+      <n0:BusinessPartnerNo>9100586000</n0:BusinessPartnerNo>
+      <n0:BPOrgName1>APL CHINA CO. LTD. (NANTONG)</n0:BPOrgName1>
+      <n0:Address>
+        <n0:Street>WEST QINGNIAN ROAD</n0:Street>
+        <n0:City>NANTONG</n0:City>
+        <n0:Country>CN</n0:Country>
+        <n0:Region>32</n0:Region>
+        <n0:CAPCode>1279545</n0:CAPCode>
+      </n0:Address>
+      <n0:Contact>
+        <n0:Telephone>(513)83556267</n0:Telephone>
+        <n0:Fax>(513)83556275</n0:Fax>
+        <n0:Email>Q_A2175253@NOL.COM.SG</n0:Email>
+      </n0:Contact>
+    </n0:BusinessPartner>
+    <n0:Container xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:EmptyPickupLocationAct>-</n0:EmptyPickupLocationAct>
+      <n0:EmptyReturnLocationAct>-</n0:EmptyReturnLocationAct>
+    </n0:Container>
+    <n0:Stage xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:StageID>0000000020</n0:StageID>
+      <n0:StageType>01</n0:StageType>
+      <n0:TransportationMode>04</n0:TransportationMode>
+      <n0:SourceLocation>CNNTG-NNTW</n0:SourceLocation>
+      <n0:SourceUNLOCODE>CNNTG</n0:SourceUNLOCODE>
+      <n0:SourceCity>CNNTG</n0:SourceCity>
+      <n0:SourceLocationType>OR</n0:SourceLocationType>
+      <n0:DestinationLocation>CNSHA-SHAW</n0:DestinationLocation>
+      <n0:DestinationUNLOCODE>CNSHA</n0:DestinationUNLOCODE>
+      <n0:DestinationCity>CNSHA</n0:DestinationCity>
+      <n0:DestinationLocationType>LO</n0:DestinationLocationType>
+      <n0:Service>INL</n0:Service>
+      <n0:ETA>20160302190000</n0:ETA>
+      <n0:ETD>20160229190000</n0:ETD>
+    </n0:Stage>
+    <n0:Stage xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:StageID>0000000030</n0:StageID>
+      <n0:StageType>03</n0:StageType>
+      <n0:TransportationMode>03</n0:TransportationMode>
+      <n0:SourceLocation>CNSHA-SHAW</n0:SourceLocation>
+      <n0:SourceUNLOCODE>CNSHA</n0:SourceUNLOCODE>
+      <n0:SourceCity>CNSHA</n0:SourceCity>
+      <n0:SourceLocationType>LO</n0:SourceLocationType>
+      <n0:DestinationLocation>USOAK-OMOW</n0:DestinationLocation>
+      <n0:DestinationUNLOCODE>USOAK</n0:DestinationUNLOCODE>
+      <n0:DestinationCity>USOAK</n0:DestinationCity>
+      <n0:DestinationLocationType>DI</n0:DestinationLocationType>
+      <n0:Vessel>HTKHMM</n0:Vessel>
+      <n0:Voyage>087</n0:Voyage>
+      <n0:Service>CC1</n0:Service>
+      <n0:OutBoundPortNumber>1</n0:OutBoundPortNumber>
+      <n0:ETA>20160321100000</n0:ETA>
+      <n0:ETD>20160303110000</n0:ETD>
+    </n0:Stage>
+    <n0:Stage xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:StageID>0000000020</n0:StageID>
+      <n0:StageType>01</n0:StageType>
+      <n0:TransportationMode>04</n0:TransportationMode>
+      <n0:SourceLocation>CNNTG-NNTW</n0:SourceLocation>
+      <n0:SourceUNLOCODE>CNNTG</n0:SourceUNLOCODE>
+      <n0:SourceCity>CNNTG</n0:SourceCity>
+      <n0:SourceLocationType>OR</n0:SourceLocationType>
+      <n0:DestinationLocation>CNSHA-SHAW</n0:DestinationLocation>
+      <n0:DestinationUNLOCODE>CNSHA</n0:DestinationUNLOCODE>
+      <n0:DestinationCity>CNSHA</n0:DestinationCity>
+      <n0:DestinationLocationType>LO</n0:DestinationLocationType>
+      <n0:Service>INL</n0:Service>
+      <n0:ETA>20160302190000</n0:ETA>
+      <n0:ETD>20160229190000</n0:ETD>
+    </n0:Stage>
+    <n0:Stage xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:StageID>0000000030</n0:StageID>
+      <n0:StageType>03</n0:StageType>
+      <n0:TransportationMode>03</n0:TransportationMode>
+      <n0:SourceLocation>CNSHA-SHAW</n0:SourceLocation>
+      <n0:SourceUNLOCODE>CNSHA</n0:SourceUNLOCODE>
+      <n0:SourceCity>CNSHA</n0:SourceCity>
+      <n0:SourceLocationType>LO</n0:SourceLocationType>
+      <n0:DestinationLocation>USOAK-OMOW</n0:DestinationLocation>
+      <n0:DestinationUNLOCODE>USOAK</n0:DestinationUNLOCODE>
+      <n0:DestinationCity>USOAK</n0:DestinationCity>
+      <n0:DestinationLocationType>DI</n0:DestinationLocationType>
+      <n0:Vessel>HTKHMM</n0:Vessel>
+      <n0:Voyage>087</n0:Voyage>
+      <n0:Service>CC1</n0:Service>
+      <n0:OutBoundPortNumber>1</n0:OutBoundPortNumber>
+      <n0:ETA>20160321100000</n0:ETA>
+      <n0:ETD>20160303110000</n0:ETD>
+    </n0:Stage>
+    <n0:Item xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:ItemID>0000000030</n0:ItemID>
+      <n0:ItemCategory>TUR</n0:ItemCategory>
+      <n0:ItemType>CN</n0:ItemType>
+      <n0:EquipmentType>D45</n0:EquipmentType>
+      <n0:OriginalEquipmentType>D45</n0:OriginalEquipmentType>
+      <n0:Measurement>
+        <n0:MeasurementType>GROSS WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>9740.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>GROSS VOLUME</n0:MeasurementType>
+        <n0:MeasurementValue>50.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>M3</n0:MeasurementUOM>
+        <n0:MeasurementType>NET WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>5000.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>PIECES</n0:MeasurementType>
+        <n0:MeasurementValue>1.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>ST</n0:MeasurementUOM>
+        <n0:MeasurementType>BASE</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>TARE</n0:MeasurementType>
+        <n0:MeasurementValue>4740.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>TEU</n0:MeasurementType>
+        <n0:MeasurementValue>2.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>TEU</n0:MeasurementUOM>
+      </n0:Measurement>
+      <ne:Commodity xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Description>machine</ne:Description>
+      </ne:Commodity>
+      <ne:Reefer xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Measurement>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:AirExchangeRate>0.00000000000000</ne:AirExchangeRate>
+        <ne:AirHumidityFrom>0.0</ne:AirHumidityFrom>
+      </ne:Reefer>
+      <ne:OOG xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Height>9.500</ne:Height>
+        <ne:Length>45.000</ne:Length>
+        <ne:Width>8.000</ne:Width>
+        <ne:UoM>FT</ne:UoM>
+        <ne:OverLengthFront>0.000</ne:OverLengthFront>
+        <ne:OverLengthBack>0.000</ne:OverLengthBack>
+        <ne:OverWidthLeft>0.000</ne:OverWidthLeft>
+        <ne:OverWidthRight>0.000</ne:OverWidthRight>
+        <ne:OverHeight>0.000</ne:OverHeight>
+        <ne:OverWeight>0.000</ne:OverWeight>
+        <ne:KilledSlots>0</ne:KilledSlots>
+      </ne:OOG>
+      <ne:DangerousGood xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:UN>UN</ne:UN>
+        <ne:FlashPoint>0.00</ne:FlashPoint>
+        <ne:NoOfOuterPacks>000000</ne:NoOfOuterPacks>
+        <ne:NoOfInnerPacks>000000</ne:NoOfInnerPacks>
+        <ne:TotalCapacity>0.000</ne:TotalCapacity>
+        <ne:Measurement>
+          <ne:MeasurementType>NET WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>NEC</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>BOILING_POINT</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>FUMIGANT DOSAGE</ne:MeasurementType>
+          <ne:MeasurementType>GROSS WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>CONTROL TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>EMERGENCY TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:DateOfFumigation>00000000</ne:DateOfFumigation>
+      </ne:DangerousGood>
+      <n0:ItemCharacteristics>
+        <n0:RefCode>BOND VV</n0:RefCode>
+        <n0:RefDesc>UNDERBOND VESSEL VOYAGE</n0:RefDesc>
+        <n0:RefVal/>
+      </n0:ItemCharacteristics>
+      <n0:ItemCharacteristics>
+        <n0:RefCode>BOND NO</n0:RefCode>
+        <n0:RefDesc>MOVEMENT NUMBER</n0:RefDesc>
+        <n0:RefVal/>
+      </n0:ItemCharacteristics>
+      <n0:Note>
+        <n0:TextType>MARKS</n0:TextType>
+        <n0:TextTypeName>Marks and Numbers</n0:TextTypeName>
+        <n0:LanguageISO>E</n0:LanguageISO>
+        <n0:TextContent>add 1*d45</n0:TextContent>
+      </n0:Note>
+      <n0:Note>
+        <n0:TextType>GOODS</n0:TextType>
+        <n0:TextTypeName>Description of Goods</n0:TextTypeName>
+        <n0:LanguageISO>E</n0:LanguageISO>
+        <n0:TextContent>machine too</n0:TextContent>
+      </n0:Note>
+    </n0:Item>
+    <n0:Item xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:ItemID>0000000040</n0:ItemID>
+      <n0:ParentItemID>0000000030</n0:ParentItemID>
+      <n0:ItemCategory>PKG</n0:ItemCategory>
+      <n0:ItemType>PKG</n0:ItemType>
+      <n0:Measurement>
+        <n0:MeasurementType>GROSS WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>5000.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>GROSS VOLUME</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>NET WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>5000.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>PIECES</n0:MeasurementType>
+        <n0:MeasurementValue>100.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>ST</n0:MeasurementUOM>
+        <n0:MeasurementType>BASE</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>TARE</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>TEU</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+      </n0:Measurement>
+      <ne:Commodity xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Description>machine</ne:Description>
+        <ne:Code>02-03-002-000</ne:Code>
+        <ne:ShortDescription>Business Machines</ne:ShortDescription>
+      </ne:Commodity>
+      <ne:Reefer xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Measurement>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:AirExchangeRate>0.00000000000000</ne:AirExchangeRate>
+        <ne:AirHumidityFrom>0.0</ne:AirHumidityFrom>
+      </ne:Reefer>
+      <ne:OOG xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Height>0.000</ne:Height>
+        <ne:Length>0.000</ne:Length>
+        <ne:Width>0.000</ne:Width>
+        <ne:OverLengthFront>0.000</ne:OverLengthFront>
+        <ne:OverLengthBack>0.000</ne:OverLengthBack>
+        <ne:OverWidthLeft>0.000</ne:OverWidthLeft>
+        <ne:OverWidthRight>0.000</ne:OverWidthRight>
+        <ne:OverHeight>0.000</ne:OverHeight>
+        <ne:OverWeight>0.000</ne:OverWeight>
+        <ne:KilledSlots>0</ne:KilledSlots>
+      </ne:OOG>
+      <ne:DangerousGood xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:FlashPoint>0.00</ne:FlashPoint>
+        <ne:NoOfOuterPacks>000000</ne:NoOfOuterPacks>
+        <ne:NoOfInnerPacks>000000</ne:NoOfInnerPacks>
+        <ne:TotalCapacity>0.000</ne:TotalCapacity>
+        <ne:Measurement>
+          <ne:MeasurementType>NET WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>NEC</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>BOILING_POINT</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>FUMIGANT DOSAGE</ne:MeasurementType>
+          <ne:MeasurementType>GROSS WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>CONTROL TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>EMERGENCY TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:DateOfFumigation>00000000</ne:DateOfFumigation>
+      </ne:DangerousGood>
+      <n0:Note>
+        <n0:TextType>MARKS</n0:TextType>
+        <n0:TextTypeName>Marks and Numbers</n0:TextTypeName>
+        <n0:LanguageISO>E</n0:LanguageISO>
+        <n0:TextContent>add 1*d45</n0:TextContent>
+      </n0:Note>
+      <n0:Note>
+        <n0:TextType>GOODS</n0:TextType>
+        <n0:TextTypeName>Description of Goods</n0:TextTypeName>
+        <n0:LanguageISO>E</n0:LanguageISO>
+        <n0:TextContent>machine too</n0:TextContent>
+      </n0:Note>
+    </n0:Item>
+    <n0:Item xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:ItemID>0000000020</n0:ItemID>
+      <n0:ParentItemID>0000000010</n0:ParentItemID>
+      <n0:ItemCategory>PKG</n0:ItemCategory>
+      <n0:ItemType>PKG</n0:ItemType>
+      <n0:Measurement>
+        <n0:MeasurementType>GROSS WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>2736.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>GROSS VOLUME</n0:MeasurementType>
+        <n0:MeasurementValue>64.06000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>M3</n0:MeasurementUOM>
+        <n0:MeasurementType>NET WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>2736.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>PIECES</n0:MeasurementType>
+        <n0:MeasurementValue>720.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>ST</n0:MeasurementUOM>
+        <n0:MeasurementType>BASE</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>TARE</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>TEU</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+      </n0:Measurement>
+      <ne:Commodity xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Description>machine</ne:Description>
+        <ne:Code>02-06-001-001</ne:Code>
+        <ne:ShortDescription>Industrial sewing machines, Embroidery machines</ne:ShortDescription>
+      </ne:Commodity>
+      <ne:Reefer xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Measurement>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:AirExchangeRate>0.00000000000000</ne:AirExchangeRate>
+        <ne:AirHumidityFrom>0.0</ne:AirHumidityFrom>
+      </ne:Reefer>
+      <ne:OOG xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Height>0.000</ne:Height>
+        <ne:Length>0.000</ne:Length>
+        <ne:Width>0.000</ne:Width>
+        <ne:OverLengthFront>0.000</ne:OverLengthFront>
+        <ne:OverLengthBack>0.000</ne:OverLengthBack>
+        <ne:OverWidthLeft>0.000</ne:OverWidthLeft>
+        <ne:OverWidthRight>0.000</ne:OverWidthRight>
+        <ne:OverHeight>0.000</ne:OverHeight>
+        <ne:OverWeight>0.000</ne:OverWeight>
+        <ne:KilledSlots>0</ne:KilledSlots>
+      </ne:OOG>
+      <ne:DangerousGood xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:UN>UN</ne:UN>
+        <ne:FlashPoint>0.00</ne:FlashPoint>
+        <ne:NoOfOuterPacks>000000</ne:NoOfOuterPacks>
+        <ne:NoOfInnerPacks>000000</ne:NoOfInnerPacks>
+        <ne:TotalCapacity>0.000</ne:TotalCapacity>
+        <ne:Measurement>
+          <ne:MeasurementType>NET WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>NEC</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>BOILING_POINT</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>FUMIGANT DOSAGE</ne:MeasurementType>
+          <ne:MeasurementType>GROSS WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>CONTROL TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>EMERGENCY TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:DateOfFumigation>00000000</ne:DateOfFumigation>
+      </ne:DangerousGood>
+      <n0:Note>
+        <n0:TextType>GOODS</n0:TextType>
+        <n0:TextTypeName>Description of Goods</n0:TextTypeName>
+        <n0:LanguageISO>E</n0:LanguageISO>
+        <n0:TextContent>machine, elevater(1*RAG20 in gauge, 1*FLR40 OOG) NAPKINS NATIONAL BANK OF KUWAIT S.A.K.,KUWAIT L/C NO.:L/CIK15/M016869 L/C DATE OF ISSUE:151025 (REMARKS:PLS SHOW THE DELIVERED AGENCY ON BL,TKS!)</n0:TextContent>
+      </n0:Note>
+    </n0:Item>
+    <n0:Item xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:ItemID>0000000010</n0:ItemID>
+      <n0:ItemCategory>TUR</n0:ItemCategory>
+      <n0:ItemType>CN</n0:ItemType>
+      <n0:EquipmentType>D20</n0:EquipmentType>
+      <n0:OriginalEquipmentType>D20</n0:OriginalEquipmentType>
+      <n0:Measurement>
+        <n0:MeasurementType>GROSS WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>4956.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>GROSS VOLUME</n0:MeasurementType>
+        <n0:MeasurementValue>64.06000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>M3</n0:MeasurementUOM>
+        <n0:MeasurementType>NET WEIGHT</n0:MeasurementType>
+        <n0:MeasurementValue>2736.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>PIECES</n0:MeasurementType>
+        <n0:MeasurementValue>1.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>ST</n0:MeasurementUOM>
+        <n0:MeasurementType>BASE</n0:MeasurementType>
+        <n0:MeasurementValue>0.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementType>TARE</n0:MeasurementType>
+        <n0:MeasurementValue>2220.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>KG</n0:MeasurementUOM>
+        <n0:MeasurementType>TEU</n0:MeasurementType>
+        <n0:MeasurementValue>1.00000000000000</n0:MeasurementValue>
+        <n0:MeasurementUOM>TEU</n0:MeasurementUOM>
+      </n0:Measurement>
+      <ne:Reefer xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Measurement>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:AirExchangeRate>0.00000000000000</ne:AirExchangeRate>
+        <ne:AirHumidityFrom>0.0</ne:AirHumidityFrom>
+      </ne:Reefer>
+      <ne:OOG xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:Height>8.500</ne:Height>
+        <ne:Length>20.000</ne:Length>
+        <ne:Width>8.000</ne:Width>
+        <ne:UoM>FT</ne:UoM>
+        <ne:OverLengthFront>0.000</ne:OverLengthFront>
+        <ne:OverLengthBack>0.000</ne:OverLengthBack>
+        <ne:OverWidthLeft>0.000</ne:OverWidthLeft>
+        <ne:OverWidthRight>0.000</ne:OverWidthRight>
+        <ne:OverHeight>0.000</ne:OverHeight>
+        <ne:OverWeight>0.000</ne:OverWeight>
+        <ne:KilledSlots>0</ne:KilledSlots>
+      </ne:OOG>
+      <ne:DangerousGood xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <ne:UN>UN</ne:UN>
+        <ne:FlashPoint>0.00</ne:FlashPoint>
+        <ne:NoOfOuterPacks>000000</ne:NoOfOuterPacks>
+        <ne:NoOfInnerPacks>000000</ne:NoOfInnerPacks>
+        <ne:TotalCapacity>0.000</ne:TotalCapacity>
+        <ne:Measurement>
+          <ne:MeasurementType>NET WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>NEC</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>BOILING_POINT</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>FUMIGANT DOSAGE</ne:MeasurementType>
+          <ne:MeasurementType>GROSS WEIGHT</ne:MeasurementType>
+          <ne:MeasurementValue>0.000</ne:MeasurementValue>
+          <ne:MeasurementType>CONTROL TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+          <ne:MeasurementType>EMERGENCY TEMPERATURE</ne:MeasurementType>
+          <ne:MeasurementValue>0.00</ne:MeasurementValue>
+        </ne:Measurement>
+        <ne:DateOfFumigation>00000000</ne:DateOfFumigation>
+      </ne:DangerousGood>
+      <n0:ItemCharacteristics>
+        <n0:RefCode>BOND VV</n0:RefCode>
+        <n0:RefDesc>UNDERBOND VESSEL VOYAGE</n0:RefDesc>
+        <n0:RefVal/>
+      </n0:ItemCharacteristics>
+      <n0:ItemCharacteristics>
+        <n0:RefCode>BOND NO</n0:RefCode>
+        <n0:RefDesc>MOVEMENT NUMBER</n0:RefDesc>
+        <n0:RefVal/>
+      </n0:ItemCharacteristics>
+      <n0:Note>
+        <n0:TextType>GOODS</n0:TextType>
+        <n0:TextTypeName>Description of Goods</n0:TextTypeName>
+        <n0:LanguageISO>E</n0:LanguageISO>
+        <n0:TextContent>machine, elevater(1*RAG20 in gauge, 1*FLR40 OOG) NAPKINS NATIONAL BANK OF KUWAIT S.A.K.,KUWAIT L/C NO.:L/CIK15/M016869 L/C DATE OF ISSUE:151025 (REMARKS:PLS SHOW THE DELIVERED AGENCY ON BL,TKS!)</n0:TextContent>
+      </n0:Note>
+    </n0:Item>
+    <n0:GeneralCharacteristics xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:RefCode>SNP</n0:RefCode>
+      <n0:RefDesc>SECOND NOTIFY PARTY</n0:RefDesc>
+    </n0:GeneralCharacteristics>
+    <n0:GeneralCharacteristics xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:RefCode>ORG</n0:RefCode>
+      <n0:RefDesc>PREMISE ID FOR UNDERBOND ORIGIN</n0:RefDesc>
+    </n0:GeneralCharacteristics>
+    <n0:GeneralCharacteristics xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:RefCode>IRS</n0:RefCode>
+      <n0:RefDesc>BONDED CARRIER IRS REFERENCE</n0:RefDesc>
+    </n0:GeneralCharacteristics>
+    <n0:GeneralCharacteristics xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:RefCode>DES</n0:RefCode>
+      <n0:RefDesc>PREMISE ID FOR UNDERBOND DESTINATION</n0:RefDesc>
+    </n0:GeneralCharacteristics>
+    <n0:GeneralCharacteristics xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:RefCode>BOND TYPE</n0:RefCode>
+      <n0:RefDesc>TYPE OF BOND</n0:RefDesc>
+    </n0:GeneralCharacteristics>
+    <ne:Status xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:BookingStatus xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">02</n0:BookingStatus>
+      <n0:ProhibitionStatus xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">01</n0:ProhibitionStatus>
+      <n0:RestrictionStatus xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">01</n0:RestrictionStatus>
+      <n0:CargoReleaseStatusofBL xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">00</n0:CargoReleaseStatusofBL>
+      <n0:ReasonCode xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:ReasonCode>
+    </ne:Status>
+    <n0:ChargeList xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:InvoicingStatus>01</n0:InvoicingStatus>
+      <n0:ChargeCalcStatus>02</n0:ChargeCalcStatus>
+      <n0:TotalAmountLocal>0.00</n0:TotalAmountLocal>
+      <n0:TotalAmountLocalCurrency>USD</n0:TotalAmountLocalCurrency>
+      <n0:TotalAmountDocument>0.00</n0:TotalAmountDocument>
+      <n0:TotalAmountDocumentCurrency>USD</n0:TotalAmountDocumentCurrency>
+    </n0:ChargeList>
+    <n0:Note xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:TextType>AAI</n0:TextType>
+      <n0:TextTypeName>General Information</n0:TextTypeName>
+      <n0:LanguageISO>E</n0:LanguageISO>
+      <n0:TextContent>N/M</n0:TextContent>
+    </n0:Note>
+    <n0:Note xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:TextType>CHG</n0:TextType>
+      <n0:TextTypeName>Charges Information</n0:TextTypeName>
+      <n0:LanguageISO>E</n0:LanguageISO>
+      <n0:TextContent>FREIGHT PREPAID</n0:TextContent>
+    </n0:Note>
+    <n0:Note xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:TextType>EDIW</n0:TextType>
+      <n0:TextTypeName>Booking EDI Warning</n0:TextTypeName>
+      <n0:LanguageISO>E</n0:LanguageISO>
+      <n0:TextContent>Requested Businees Partner: ZSHIPPER , KUEHNE NAGEL LTD SHANGHAI , , , , , ,</n0:TextContent>
+    </n0:Note>
+    <n0:Note xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:TextType>EDIE</n0:TextType>
+      <n0:TextTypeName>Booking EDI Errors</n0:TextTypeName>
+      <n0:LanguageISO>E</n0:LanguageISO>
+      <n0:TextContent>BP not found for Party Type: ZNOTIFY BP not found for Party Type: ZANOTIF</n0:TextContent>
+    </n0:Note>
+    <ne:ServiceConstraints xmlns:ne="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:LoadService xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <n0:AdvancedService/>
+      </n0:LoadService>
+      <n0:OceanInterchangeService xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:OceanInterchangeService>
+      <n0:DischargeService xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:DischargeService>
+      <n0:BeyondService xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1"></n0:BeyondService>
+      <n0:LoadVesselVoyage xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+        <n0:Vessel>HTKHMM</n0:Vessel>
+        <n0:Voyage>087</n0:Voyage>
+      </n0:LoadVesselVoyage>
+    </ne:ServiceConstraints>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>SHIPPER WILL BE LIABLE FOR ANY FINES AND/OR COSTS INCURRED IN RELATION TO NON-COMPLIANCE OF MEETING US CUSTOMS SERVICE REGULATION ON INBOUND CARGO DECLARATION DATA. SHIPPERS ARE REQUIRED TO AFFIX ONLY BULLET SEALS FOR SH</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>0000000020</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>machine</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>02-06-001-001</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/557EE</n0:RuleReference>
+    </n0:CheckResults>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>CARGO TO THE US:</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>0000000020</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>machine</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>02-06-001-001</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/557EE</n0:RuleReference>
+      <n0:RuleDescription>ALL LOADED CONTAINERS BOUND FOR THE U.S. MUST BE AFFIXED WITH A HIGH S</n0:RuleDescription>
+    </n0:CheckResults>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>WEIGHT RESTRICTIONS IT IS THE RESPONSIBLITY OF THE SHIPPER TO COMPLY WITH ALL APPLICABLE STATE AND/OR FEDERAL HIGHWAY WEIGHT LAWS &amp; REGULATIONS.</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>0000000020</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>machine</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>02-06-001-001</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/557EE</n0:RuleReference>
+    </n0:CheckResults>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>OVER WEIGHT CARGO (CARGO+TARE)&gt;=30.5TON CARGO, TML WILL COLLECT OVER WEIGHT CHARGE FOR D20/D40 AS CNY583.5/CNY875.3.</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>0000000020</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>machine</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>02-06-001-001</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/557EF</n0:RuleReference>
+    </n0:CheckResults>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>Over-the-Road Weight Guidelines: THE EAST &amp; CENTRAL CHINA GUIDELINE IS 22,000 KGS CARGO WEIGHT FOR A 20' CONTAINER. THE EAST &amp; CENTRAL CHINA GUIDELINE IS 26,000 KGS CARGO WEIGHT FOR A 40' CONTAINER.</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>0000000020</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>machine</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>02-06-001-001</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/557EF</n0:RuleReference>
+    </n0:CheckResults>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>39,500 LBS is the Max Cargo Wt in a D20 w/slider or standard chassis/44,000 LBS with Triaxle for Store Door</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>0000000020</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>machine</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>02-06-001-001</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/56B3C</n0:RuleReference>
+    </n0:CheckResults>
+    <n0:CheckResults xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:MsgTy>I</n0:MsgTy>
+      <n0:MsgTxt>44,000 LBS is the max cargo weight in D40</n0:MsgTxt>
+      <n0:MsgCat>O</n0:MsgCat>
+      <n0:RuleInputParam>
+        <n0:Description>Shipper</n0:Description>
+        <n0:Value>9000121074</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Booking Party</n0:Description>
+        <n0:Value>9100586000</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Consignee</n0:Description>
+        <n0:Value>9000381560</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Load Port</n0:Description>
+        <n0:Value>CNSHA-SHAW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Discharge Port</n0:Description>
+        <n0:Value>USOAK-OMOW</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Location Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Equipment Type</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Item</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Gross Weight</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Cargo Description</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Commodity Code</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleInputParam>
+        <n0:Description>Break Bulk Indc.</n0:Description>
+        <n0:Value>*</n0:Value>
+      </n0:RuleInputParam>
+      <n0:RuleReference>ZCS_DT_ROU_PNR/56B3C</n0:RuleReference>
+    </n0:CheckResults>
+    <n0:DocumentFlow xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:PredecessorOrSuccessor>2</n0:PredecessorOrSuccessor>
+      <n0:DocumentNo>00000000006200023179</n0:DocumentNo>
+      <n0:TypeOfDocument>02</n0:TypeOfDocument>
+      <n0:DocumentStatus>In</n0:DocumentStatus>
+      <n0:CreatedOn>20151022</n0:CreatedOn>
+      <n0:CreatedAt>213559</n0:CreatedAt>
+    </n0:DocumentFlow>
+    <n0:DocumentFlow xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:DocumentNo>00000000000000807333</n0:DocumentNo>
+      <n0:TypeOfDocument>02</n0:TypeOfDocument>
+      <n0:DocumentStatus>Co</n0:DocumentStatus>
+      <n0:CreatedOn>20160225</n0:CreatedOn>
+      <n0:CreatedAt>113436</n0:CreatedAt>
+    </n0:DocumentFlow>
+    <n0:DocumentFlow xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:PredecessorOrSuccessor>2</n0:PredecessorOrSuccessor>
+      <n0:DocumentNo>01000000000000092956</n0:DocumentNo>
+      <n0:TypeOfDocument>02</n0:TypeOfDocument>
+      <n0:DocumentStatus>In</n0:DocumentStatus>
+      <n0:CreatedOn>20160225</n0:CreatedOn>
+      <n0:CreatedAt>113436</n0:CreatedAt>
+    </n0:DocumentFlow>
+    <n0:DocumentFlow xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:PredecessorOrSuccessor>1</n0:PredecessorOrSuccessor>
+      <n0:DocumentNo>8508552046</n0:DocumentNo>
+      <n0:TypeOfDocument>2</n0:TypeOfDocument>
+      <n0:DocumentStatus>Ne</n0:DocumentStatus>
+      <n0:CreatedOn>00000000</n0:CreatedOn>
+      <n0:CreatedAt>000000</n0:CreatedAt>
+    </n0:DocumentFlow>
+    <n0:DocumentFlow xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:PredecessorOrSuccessor>2</n0:PredecessorOrSuccessor>
+      <n0:DocumentNo>01000000000000093324</n0:DocumentNo>
+      <n0:TypeOfDocument>02</n0:TypeOfDocument>
+      <n0:DocumentStatus>In</n0:DocumentStatus>
+      <n0:CreatedOn>20160226</n0:CreatedOn>
+      <n0:CreatedAt>112834</n0:CreatedAt>
+    </n0:DocumentFlow>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>05</n0:CutoffCode>
+      <n0:CutoffDescription>BLAmendment</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>USOAK-OMOW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>AD</n0:CutoffCode>
+      <n0:CutoffDescription>Advance Manifest</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>KRKWA-QKYW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>DI</n0:CutoffCode>
+      <n0:CutoffDescription>ImportManifest</n0:CutoffDescription>
+      <n0:Date>20160227</n0:Date>
+      <n0:Time>070000</n0:Time>
+      <n0:Location>USOAK-OMOW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>DS</n0:CutoffCode>
+      <n0:CutoffDescription>DocumentationSI</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNSHA-SHAW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>ES</n0:CutoffCode>
+      <n0:CutoffDescription>DocumentationESI</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNSHA-SHAW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>EX</n0:CutoffCode>
+      <n0:CutoffDescription>ExportManifest</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNSHA-SHAW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>DF</n0:CutoffCode>
+      <n0:CutoffDescription>DryCYBarge</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNNTG-NNTW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>DF</n0:CutoffCode>
+      <n0:CutoffDescription>DryCYBarge</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNNTG-NNTW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>DF</n0:CutoffCode>
+      <n0:CutoffDescription>DryCYBarge</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNNTG-NNTW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>DF</n0:CutoffCode>
+      <n0:CutoffDescription>DryCYBarge</n0:CutoffDescription>
+      <n0:Date>00000000</n0:Date>
+      <n0:Time>000000</n0:Time>
+      <n0:Location>CNNTG-NNTW</n0:Location>
+    </n0:CutOffTimes>
+    <n0:CutOffTimes xmlns:n0="http://www.nol.com.sg/intf/q2c/csss/bookingconfirmation/v1">
+      <n0:CutoffCode>11</n0:CutoffCode>
+      <n0:CutoffDescription>BL Due Date</n0:CutoffDescription>
+      <n0:Date>20160303</n0:Date>
+      <n0:Time>030000</n0:Time>
+    </n0:CutOffTimes>
+  </BookingandBL>
+</nm:sendBookingBLRequestMsg>
